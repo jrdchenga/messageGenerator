@@ -1,27 +1,17 @@
-// Function to choose a random quote.
-const getCurrentQuote = arr1 => {
-  for (let i=0; i < arr1.length - 1; i++) {
-    currentQuote = arr1[Math.floor(Math.random() * arr1.length)];
-    return arr1[i];
- }
-}
-const currentQuote = getCurrentQuote();
+let quoteArray = [];
+let jokeArray = [];
 
-// Function to choose a random joke.
-const getCurrentJoke = arr2 => {
-  for (let j=0; j < arr2.length - 1; j++) {
-    currentJoke = arr2[Math.floor(Math.random() * arr2.length)];
-    return arr2[j];
- }
-}
-const currentJoke = getCurrentJoke();
+
+// choose a random quote.
+let currentQuote = quoteArray[Math.floor(Math.random() * quoteArray.length)];
+console.log(currentQuote);
+
+// choose a random joke.
+let currentJoke = jokeArray[Math.floor(Math.random() * jokeArray.length)];
+console.log(currentJoke);
 
 // Function to generate a message on user's screen.
-const generateMessage = computerNumber => {
+function generateMessage(computerNumber) {
   computerNumber = Math.floor(Math.random() * 20);
   (computerNumber % 2 == 0) ? currentQuote : currentJoke;
 }
-console.log(computerNumber);
-console.log(getCurrentQuote());
-console.log(getCurrentJoke());
-console.log(generateMessage());
