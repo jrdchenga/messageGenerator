@@ -24,4 +24,4 @@ User may click on the *Generate* button and a random sentence will pop out on hi
 [GetMotivationalQuotes]: https://www.goodreads.com/quotes/tag/motivation
 - <[GetJokes]>
 
-[GetJokes]: ttps://parade.com/1041830/marynliles/clean-joke
+[GetJokes]: https://www.laughfactory.com/jokes/insult-jokes
