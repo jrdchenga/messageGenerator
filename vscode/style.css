@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+  font-weight: bolder;
+  font-size: 90px;
+  font-family: Cambria;
+}
+body {
+  background-color: black;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  width: auto;
+  height: 250px;
+  margin: 50px 400px;
+  padding-top: 20px;
+  background-color: rgb(244, 239, 239);
+  border-bottom: 3px solid red;
+  border-top: 3px solid yellow;
+  border-left: 3px solid blue;
+  border-right: 3px solid green;
+  border-radius: 40px;
+}
+#Message {
+  color: rgb(126, 122, 122);
+  display: flex;
+  font-size: large;
+  float: left;
+  margin-left: -200px;
+}
+.generate {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 90px;
+  margin-top: -30px;
+}
+.btn {
+  background-size: cover;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  background-color: blue;
+  color: antiquewhite;
+  font-size: 24px;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: aliceblue;
+  color: blue;
+}
+footer {
+  display: flex;
+  position: absolute;
+  width: 90%;
+  height: 100px;
+  justify-content: space-evenly;
+  align-items: space-evenly;
+}
+footer h5 {
+  color: white;
+  position: absolute;
+  left: 95%;
+  margin-top: 30px;
+  font-size: x-large;
+  letter-spacing: 2s;
+}
+i {
+  color: white;
+  position: relative;
+  margin-top: 40px;
+  margin-left: 20px;
+  font-size: xx-large;
+}
